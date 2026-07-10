@@ -1,4 +1,4 @@
-from files.RJM import RookJumpingMaze, EXAMPLE_MAZE
+from RJM import RookJumpingMaze, EXAMPLE_MAZE
 class PriorityQueue:
     def __init__(self):
         self.list = []
