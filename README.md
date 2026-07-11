@@ -4,4 +4,3 @@ Steps taken to solve
 
 
 First thoughts about the heuristic for RJM. The heuristic I will be using is Manhattan distance / maximum jump length
-
