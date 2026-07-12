@@ -58,7 +58,7 @@ def heuristic(node):
 def ASTAR(maze: RookJumpingMaze, heuristic):
     pq = PriorityQueue()
     visited = [] # add nodes that you expand here 
-    start_state = tuple(maze.get_start())
+    start_state = tuple(maze.get_start()) #had to change this a bit due to the issue with output being [3,0] instead of (3,0)
     start = Node(start_state, 0, maze, [start_state])
     pq.push(heuristic(start), start)  # add the starting node to your priority queue  
     i = 1
